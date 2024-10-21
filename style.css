@@ -85,7 +85,11 @@ h1 {
     flex-direction: column;
     gap: 20px;
 }
-
+.name-sec{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
 .name-sec p {
     font-size: 20px;
     color: dimgray;
