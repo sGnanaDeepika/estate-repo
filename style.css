@@ -34,7 +34,7 @@
     color: #007bff;
 }
 
-.btn-section button {
+.btn-section button,select {
     margin-left: 10px;
     padding: 8px 20px;
     border-radius: 20px;
@@ -44,7 +44,7 @@
     cursor: pointer;
     }
 
-.btn-section button:hover {
+.btn-section button:hover,select:hover {
     background-color: black;
     color: #fff;
 }
@@ -71,14 +71,14 @@ h1 {
 }
 .img-sec img{
     background-color: black;
-    width: 900px;
+    width: 930px;
     height: 500px;
     border:20px;
 }
 
 
 .details-sec {
-    width:400px;
+    width:500px;
     border-radius: 20px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     padding:10px;
@@ -124,10 +124,13 @@ h1 {
     color: black;
 }
 .price-sec button{
-    background-color: black;
-    color: #fff;
+    
     border-radius: 20px;
     padding: 10px;
+}
+.price-sec button{
+    background-color: black;
+    color: #fff;
 }
 .contact-sec div{
    display: flex;
