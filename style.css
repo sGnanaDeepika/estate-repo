@@ -78,6 +78,7 @@ h1 {
 
 
 .details-sec {
+    width:400px;
     border-radius: 20px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     padding:10px;
@@ -180,24 +181,20 @@ footer {
 
 }
 
-.footer-details p,i{
-    display: flex;
-    font-size: 20px;
-    color: black;
 
-}
 
 .footer-details div{
     margin: 15px 0px 10px 15px;
      padding: 2px 40px;
     border-radius: 20px;
     background-color: #fff;
-    color: gray;
+    color: black;
 }
-#more{
-    padding-top: 10px;
-color: black;
+.footer-details div:hover{
+    background-color:black;
+    color:white;
 }
+
  .footer-details button{
     margin: 15px 0px 10px 15px;
      padding: 2px 20px;
